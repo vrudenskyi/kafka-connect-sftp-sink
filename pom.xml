@@ -12,6 +12,18 @@
 
 	<artifactId>sftp-sink</artifactId>
 
+	<properties>
+		<connect.component.name>sftp-sink</connect.component.name>
+		<connect.component.componentTypes>sink</connect.component.componentTypes>
+		<connect.component.title>SFTP Sink connector</connect.component.title>
+		<connect.component.description>This connector allows Kafka Connect to write data to SFTP</connect.component.description>
+		<connect.component.documentation.url>https://github.com/vrudenskyi/kafka-connect-sftp-sink/wiki</connect.component.documentation.url>
+		<connect.component.source.url>https://github.com/vrudenskyi/kafka-connect-sftp-sink</connect.component.source.url>
+		<connect.component.support.url>https://github.com/vrudenskyi/kafka-connect-sftp-sink/issues</connect.component.support.url>
+		<connect.component.tags>sftp</connect.component.tags>
+	</properties>
+
+
 	<dependencies>
 		<dependency>
 			<groupId>com.mckesson.kafka.connect</groupId>
